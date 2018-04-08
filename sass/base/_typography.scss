@@ -1,0 +1,49 @@
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+@font-face {
+  font-family: 'Panorama';
+  src: url('fonts/icomoon.eot'); /* IE9 Compat Modes */
+  src: url('fonts/icomoon.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/icomoon.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/icomoon.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/icomoon.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+/*   Assign font strings to variables
+  ========================================================================== */
+$font-panorama: 'Panorama';
+$font-roboto-condensed: 'Roboto Condensed', sans-serif;
+
+
+/*   Set heading and body font
+  ========================================================================== */
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-roboto-condensed;
+	font-weight: 700;
+}
+
+body {
+	font-family: $font-roboto-condensed;
+	font-weight: 400;
+}
+
+
+/*   Icon font character shortcuts
+  ========================================================================== */
+$char-sony: "\e900";
+$char-canon: "\e901";
+$char-iphone3: "\e902";
+$char-iphone5: "\e903";
+$char-iphone6: "\e904";
+$char-close: "\e905";
+$char-information: "\e906";
+$char-title: "\e907";
+$char-location: "\e908";
+$char-date: "\e909";
+$char-camera-default: "\e90a";
+$char-arrow-right: "\e90b";
+$char-information-selected: "\e90c";
+$char-magnifying-glass: "\e90d";

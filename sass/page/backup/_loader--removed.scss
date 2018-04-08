@@ -1,0 +1,12 @@
+.image-loader span {
+	animation-name: loader;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-out;
+}
+
+@keyframes loader {
+	from { opacity: 1 }
+	to { opacity: 0 }
+}

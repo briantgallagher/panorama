@@ -1,0 +1,22 @@
+/* ==========================================================================
+   Page Components
+   ========================================================================== */
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+
+	@include at-least(1400px) {
+		background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0) 6%, rgba(255,255,255,1) 6%, rgba(255,255,255,1) 94%,  rgba(255,255,255,0) 94%,  rgba(255,255,255,0) 100%),
+			url('../images/layout/page-background.png');
+		background-position: 0 0;
+	}
+}
+
+#container {
+	overflow: hidden;
+	width: 100%;
+}

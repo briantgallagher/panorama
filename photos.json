@@ -1,0 +1,423 @@
+{
+	"config": {
+		"directory" : "images"
+	},
+
+	"photos": [
+		{
+			"filename" : "2015-winter-classic.jpg",
+			"description" : "2015 Winter Classic",
+			"location" : "Washington, DC",
+			"date" : "01/01/2015",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "achilles-radial-pit.jpg",
+			"description" : "Achilles Radial pit @ Formula Drift",
+			"location" : "Wall, NJ",
+			"date" : "06/26/2015",
+			"camera" : "Apple iPhone 6"
+		},
+
+		{
+			"filename" : "alaska-airlines-sfo.jpg",
+			"description" : "Alaska Airlines gates @ SFO",
+			"location" : "San Fancisco, CA",
+			"date" : "04/29/2014",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "amsterdam-arena.jpg",
+			"description" : "Amsterdam Arena prematch",
+			"location" : "Amsterdam, Netherlands",
+			"date" : "10/05/2014",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "antelope-island-state-park.jpg",
+			"description" : "Antelope Island State Park",
+			"location" : "Great Salt Lake, UT",
+			"date" : "10/01/2013",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "bc-place.jpg",
+			"description" : "Vancouver Whitecaps @ BC Place",
+			"location" : "Vancouver, BC, Canada",
+			"date" : "07/06/2013",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "bifrost.jpg",
+			"description" : "Bifrost snowscape",
+			"location" : "Bifröst, Iceland",
+			"date" : "02/23/2012",
+			"camera" : "Canon EOS REBEL T2i"
+		},
+
+		{
+			"filename" : "bixby-bridge.jpg",
+			"description" : "CA Route 1, Bixby Bridge",
+			"location" : "Monterey, CA",
+			"date" : "04/26/2014",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "christian-ivs-bro.jpg",
+			"description" : "Christian IV's Bro",
+			"location" : "Copenhagen, Denmark",
+			"date" : "09/25/2014",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "coal-harbour.jpg",
+			"description" : "Harbour Air terminal @ Coal Harbour",
+			"location" : "Vancouver, BC, Canada",
+			"date" : "08/14/2015",
+			"camera" : "Apple iPhone 6"
+		},
+
+		{
+			"filename" : "disney-pop-century.jpg",
+			"description" : "Disney Pop Century resort courtyard",
+			"location" : "Orlando, FL",
+			"date" : "01/16/2015",
+			"camera" : "Apple iPhone 6"
+		},
+
+		{
+			"filename" : "east-side-gallery.jpg",
+			"description" : "East Side Gallery",
+			"location" : "Berlin, Germany",
+			"date" : "09/29/2014",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "ensign-peak.jpg",
+			"description" : "Salt Lake City overlook on Ensign Peak",
+			"location" : "Salt Lake City, UT",
+			"date" : "09/30/2013",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "false-creek.jpg",
+			"description" : "Ferry landing at False Creek",
+			"location" : "Vancouver, BC, Canada",
+			"date" : "08/16/2015",
+			"camera" : "Apple iPhone 6"
+		},
+
+		{
+			"filename" : "false-creek-2.jpg",
+			"description" : "False Creek sunset",
+			"location" : "Vancouver, BC, Canada",
+			"date" : "08/16/2015",
+			"camera" : "Apple iPhone 6"
+		},
+
+		{
+			"filename" : "gasworks-park-sunset.jpg",
+			"description" : "Gasworks Park sunset",
+			"location" : "Seattle, WA",
+			"date" : "08/17/2015",
+			"camera" : "Apple iPhone 6"
+		},
+
+		{
+			"filename" : "glacier-hike.jpg",
+			"description" : "Glacier Hike",
+			"location" : "Þórsmörk, Iceland",
+			"date" : "02/21/2012",
+			"camera" : "Sony DSC-H20"
+		},
+
+		{
+			"filename" : "glen-canyon-dam.jpg",
+			"description" : "Glen Canyon Dam",
+			"location" : "Page, AZ",
+			"date" : "03/27/2012",
+			"camera" : "Canon EOS REBEL T2i"
+		},
+
+		{
+			"filename" : "golden-gate-bridge.jpg",
+			"description" : "Golden Gate Bridge from Marin Headlands",
+			"location" : "San Francisco, CA",
+			"date" : "04/28/2014",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "goodman-bay.jpg",
+			"description" : "Goodman Bay",
+			"location" : "Nassau, Bahamas",
+			"date" : "01/17/2016",
+			"camera" : "Apple iPhone 6"
+		},
+
+		{
+			"filename" : "havnepromenade.jpg",
+			"description" : "Havnepromenade",
+			"location" : "Copenhagen, Denmark",
+			"date" : "09/25/2014",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "horseshoe-bend.jpg",
+			"description" : "Horseshoe Bend",
+			"location" : "Page, AZ",
+			"date" : "03/27/2012",
+			"camera" : "Canon EOS REBEL T2i"
+		},
+
+		{
+			"filename" : "hvitserkur.jpg",
+			"description" : "Hvítserkur",
+			"location" : "Vatnsnesvegur, Iceland",
+			"date" : "02/24/2012",
+			"camera" : "Canon EOS REBEL T2i"
+		},
+
+		{
+			"filename" : "inner-harbor.jpg",
+			"description" : "Inner Harbor",
+			"location" : "Baltimore, MD",
+			"date" : "08/31/2012",
+			"camera" : "Canon EOS REBEL T2i"
+		},
+
+		{
+			"filename" : "joshua-tree.jpg",
+			"description" : "Colorado Desert Cholla Cacti",
+			"location" : "Joshua Tree National Park, CA",
+			"date" : "02/15/2011",
+			"camera" : "Sony DSC-H20"
+		},
+
+		{
+			"filename" : "joshua-tree-road.jpg",
+			"description" : "Jumbo Rocks Campground",
+			"location" : "Joshua Tree National Park, CA",
+			"date" : "02/15/2011",
+			"camera" : "Sony DSC-H20"
+		},
+
+		{
+			"filename" : "lake-powell.jpg",
+			"description" : "Lake Powell",
+			"location" : "Wahweap, AZ",
+			"date" : "03/27/2012",
+			"camera" : "Canon EOS REBEL T2i"
+		},
+
+		{
+			"filename" : "lone-rock-beach.jpg",
+			"description" : "Lone Rock Beach",
+			"location" : "Big Water, UT",
+			"date" : "03/27/2012",
+			"camera" : "Canon EOS REBEL T2i"
+		},
+
+		{
+			"filename" : "montreal-skyline.jpg",
+			"description" : "Skyline from Kondiaronk Belvedere",
+			"location" : "Montreal, QC, Canada",
+			"date" : "06/12/2015",
+			"camera" : "Apple iPhone 6"
+		},
+
+		{
+			"filename" : "near-the-wave.jpg",
+			"description" : "Near The Wave",
+			"location" : "Coyote Buttes Permit Area, UT",
+			"date" : "03/29/2012",
+			"camera" : "Canon EOS REBEL T2i"
+		},
+
+		{
+			"filename" : "nyhavn.jpg",
+			"description" : "Nyhavn",
+			"location" : "Copenhagen, Denmark",
+			"date" : "09/25/2014",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "olympiastadion-berlin.jpg",
+			"description" : "Olympiastadion (1936)",
+			"location" : "Berlin, Germany",
+			"date" : "09/27/2014",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "olympiastadion-munich.jpg",
+			"description" : "Olympiastadion (1972)",
+			"location" : "Munich, Germany",
+			"date" : "10/01/2014",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "pittsburgh-allegheny-river-walk.jpg",
+			"description" : "Allegheny River Walk",
+			"location" : "Pittsburgh, PA",
+			"date" : "07/27/2014",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "prins-hendrikkade.jpg",
+			"description" : "Prins Hendrikkade", 
+			"location" : "Amsterdam, Netherlands",
+			"date" : "10/06/2014",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "red-bull-grc-rfk-stadium.jpg",
+			"description" : "Red Bull Global Rallycross @ RFK Stadium",
+			"location" : "Washington, DC",
+			"date" : "06/21/2014",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "rfk-stadium.jpg",
+			"description" : "RFK Stadium",
+			"location" : "Washington, DC",
+			"date" : "06/23/2013",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "rhine-river.jpg",
+			"description" : "Rhine River",
+			"location" : "Köln, Germany",
+			"date" : "10/04/2014",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "road-711.jpg",
+			"description" : "Road 711",
+			"location" : "Vatnsnesvegur, Iceland",
+			"date" : "02/24/2012",
+			"camera" : "Canon EOS REBEL T2i"
+		},
+
+		{
+			"filename" : "san-francisco-bay-bridge.jpg",
+			"description" : "Bay Bridge",
+			"location" : "San Francisco, CA",
+			"date" : "07/26/2015",
+			"camera" : "Apple iPhone 6"
+		},
+
+		{
+			"filename" : "santa-monica.jpg",
+			"description" : "Santa Monica State Beach",
+			"location" : "Santa Monica, CA",
+			"date" : "02/16/2011",
+			"camera" : "Sony DSC-H20"
+		},
+
+		{
+			"filename" : "sea-to-sky-overlook.jpg",
+			"description" : "Sea to Sky Highway overlook",
+			"location" : "Garibaldi, BC, Canada",
+			"date" : "07/06/2013",
+			"camera" : "Canon EOS REBEL T2i"
+		},
+
+		{
+			"filename" : "seattle-waterfront.jpg",
+			"description" : "Waterfront from Ferry",
+			"location" : "Seattle, WA",
+			"date" : "07/04/2013",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "space-needle-view.jpg",
+			"description" : "Downtown from Space Needle",
+			"location" : "Seattle, WA",
+			"date" : "07/03/2013",
+			"camera" : "Canon EOS REBEL T2i"
+		},
+
+		{
+			"filename" : "suisun-city.jpg",
+			"description" : "Suisun City Waterfront",
+			"location" : "Suisun City, CA",
+			"date" : "07/23/2015",
+			"camera" : "Apple iPhone 6"
+		},
+
+		{
+			"filename" : "tacoma-narrows-bridge.jpg",
+			"description" : "Tacoma Narrows Bridge",
+			"location" : "Tacoma, WA",
+			"date" : "07/02/2013",
+			"camera" : "Canon EOS REBEL T2i"
+		},
+
+		{
+			"filename" : "tampa-channel.jpg",
+			"description" : "Channel view",
+			"location" : "Tampa, FL",
+			"date" : "02/23/2014",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "thingvellir.jpg",
+			"description" : "Þingvellir",
+			"location" : "Bláskógabyggð, Iceland",
+			"date" : "02/22/2012",
+			"camera" : "Canon EOS REBEL T2i"
+		},
+
+		{
+			"filename" : "utah-high-desert.jpg",
+			"description" : "High Desert",
+			"location" : "Coyote Buttes Permit Area, UT",
+			"date" : "03/29/2012",
+			"camera" : "Sony DSC-H20"
+		},
+
+		{
+			"filename" : "volkswagen-arena.jpg",
+			"description" : "Volkswagen Arena",
+			"location" : "Wolfsburg, Germany",
+			"date" : "09/27/2014",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "walchensee.jpg",
+			"description" : "Lake Walchen",
+			"location" : "Walchensee, Germany",
+			"date" : "10/02/2014",
+			"camera" : "Apple iPhone 5"
+		},
+
+		{
+			"filename" : "welcome-to-utah.jpg",
+			"description" : "Welcome to Utah",
+			"location" : "Kane County, UT",
+			"date" : "04/12/2012",
+			"camera" : "Canon EOS REBEL T2i"
+		}
+	]
+}

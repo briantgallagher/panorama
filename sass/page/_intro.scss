@@ -1,0 +1,52 @@
+/* ==========================================================================
+   Introduction
+   ========================================================================== */
+
+#intro {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+
+	@include at-least($columns-2) {
+		max-width: 768px;
+	}
+}
+
+h1 {
+	display: block;
+	overflow: hidden;
+	width: 70%;
+	max-width: 35rem;
+	height: 57.221vw;
+	max-height: 28.611rem;
+	margin: 2rem auto;
+	background-image: url('../images/layout/header.svg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-indent: -9999px;
+
+	@include at-least($columns-2) {
+		margin: 4rem auto;
+	}
+	// color: $color-grey-base;
+	// text-align: center;
+	// font-size: 2rem;
+
+	// @include at-least(480px) {
+	// 	font-size: 3.2rem;
+	// }
+
+	// @include at-least($columns-2) {
+	// 	font-size: 3.6rem;
+	// }
+
+	// &::before {
+	// 	display: inline-block;
+	// 	width: 100%;
+	// 	color: $color-blue-base;
+	// 	font-family: $font-panorama;
+	// 	font-size: 3.6rem;
+	// 	text-shadow: none;
+	// 	content: $char-title;
+	// }
+}

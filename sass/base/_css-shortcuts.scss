@@ -1,0 +1,58 @@
+/* ==========================================================================
+   CSS3 shortcuts/mixins
+   ========================================================================== */
+
+@mixin background-linear-gradient($angle, $color-stop-1, $color-stop-2) {
+	background: -webkit-linear-gradient($angle, $color-stop-1, $color-stop-2);
+	background: -moz-linear-gradient($angle, $color-stop-1, $color-stop-2);
+ 	background: -o-linear-gradient($angle, $color-stop-1, $color-stop-2);
+ 	background: linear-gradient($angle, $color-stop-1, $color-stop-2);
+}
+
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius:	$radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin transform($transform) {
+	-webkit-transform: $transform;
+	-ms-transform: $transform;
+	transform: $transform;
+}
+
+@mixin blur($blur) {
+	-webkit-filter: blur($blur);
+	filter: blur($blur);
+}
+
+@mixin animation-duration($animation-duration) {
+	-webkit-animation-duration: $animation-duration;
+	animation-duration: $animation-duration;
+}
+
+@mixin animation-name($animation-name) {
+	-webkit-animation-name: $animation-name;
+	animation-name: $animation-name;
+}
+
+@mixin animation-timing-function($animation-timing-function) {
+	-webkit-animation-timing-function: $animation-timing-function;
+	animation-timing-function: $animation-timing-function;
+}
+
+@mixin animation-iteration-count($animation-iteration-count) {
+	-webkit-animation-iteration-count: $animation-iteration-count;
+	animation-iteration-count: $animation-iteration-count;
+}
+
+@mixin keyframes($animation-name) {
+	@-webkit-keyframes #{$animation-name} {
+		@content;
+	}
+
+	@keyframes #{$animation-name} {
+		@content;
+	}
+}

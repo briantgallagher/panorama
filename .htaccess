@@ -1,0 +1,29 @@
+# BEGIN GZIP
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript image/svg+xml
+</ifmodule>
+# END GZIP
+
+<IfModule mod_rewrite.c>
+  #Options +FollowSymlinks
+  RewriteEngine On
+
+  # Adaptive-Images -----------------------------------------------------------------------------------
+
+  # Add any directories you wish to omit from the Adaptive-Images process on a new line, as follows:
+  # RewriteCond %{REQUEST_URI} !some-directory
+  # RewriteCond %{REQUEST_URI} !another-directory
+
+  RewriteCond %{REQUEST_URI} !assets
+  RewriteCond %{QUERY_STRING} !v=full
+
+  # don't apply the AI behaviour to images inside AI's cache folder:
+  RewriteCond %{REQUEST_URI} !ai-cache  
+
+  # Send any GIF, JPG, or PNG request that IS NOT stored inside one of the above directories
+  # to adaptive-images.php so we can select appropriately sized versions
+
+  RewriteRule \.(?:jpe?g|gif|png|JPE?G|GIF|PNG)$ adaptive-images.php
+
+  # END Adaptive-Images -------------------------------------------------------------------------------
+</IfModule>

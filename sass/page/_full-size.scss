@@ -1,0 +1,90 @@
+/* ==========================================================================
+   Full size image display
+   ========================================================================== */
+
+/* .full-size outer div -- inserted by JavaScript on click
+========================================================================== */
+.full-size {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	clear: both;
+	width: 100%;
+	height: 79vh;
+	margin-bottom: 3vh;
+	background-color: $color-grey-base;
+	background-image: url('../images/layout/pattern.svg');
+	background-repeat: repeat;
+
+	@include at-least(500px) {
+		height: 81vh;
+	}
+
+	@include at-least(700px) {
+		height: 83vh;
+	}
+
+	@include at-most($columns-3) {
+		// buffer top and bottom of scrollable area for touch devices (targeted via 1 and 2 column sizes)
+		&::before, &::after {
+			position: absolute;
+			left: 0;
+			display: block;
+			width: 100%;
+			height: 3rem;
+			content: '';
+		}
+
+		&::before {
+			z-index: 98;
+			top: 0;
+		}
+
+		&::after {
+			z-index: 99;
+			bottom: 0;
+		}
+	}
+}
+
+/* .image-wrap - contains image file and establishes outer display bounds at 100% w/h of .full-width
+========================================================================== */
+.image-wrap {
+	position: absolute;
+	z-index: 0;
+	top: 0;
+	left: 0;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	width: 100%;
+	height: 100%;
+	cursor: grab;
+
+	& > div {
+		height: 100%;
+		text-align: center;
+	}
+
+	img {
+		height: 100%;
+		margin: 0 auto;
+		transition: filter .4s ease-out;
+		transition: -webkit-filter .4s ease-out;
+		transition-delay: .1s;
+		cursor: grab;
+		@include blur(0px);
+
+		&:active {
+			cursor: grabbing;
+		}
+	}
+}
+
+.show-meta {
+	.image-wrap {
+		img {
+			@include blur(3px);
+			transition-delay: .4s;
+		}
+	}
+}

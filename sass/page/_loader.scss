@@ -1,0 +1,130 @@
+/* ==========================================================================
+   Loading animation for .full-size image
+   ========================================================================== */
+
+/* .image-loader - outer element, display @ 50%, 50%
+========================================================================== */
+.image-wrap {
+	.image-loader {
+		position: relative;
+		top: 50%;
+		left: 10%;
+		width: 80%;
+		height: 20vw;
+		border: .2rem solid $color-white;
+		border-radius: .2rem;
+		background-color: $color-grey-base;
+		background-image: url('../images/layout/loader.svg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		@include transform(translateY(-50%));
+
+		@include at-least($columns-2) {
+			left: 35%;
+			width: 30%;
+			height: 7.5vw;
+		}
+	}
+}
+
+/* .image-loader-mask - covers background image and shrinks to right
+========================================================================== */
+.image-loader-mask {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 90%;
+	height: 100%;
+	background-color: $color-grey-base;
+	@include animation-name(loader-mask);
+	@include animation-duration(3s);
+	@include animation-timing-function(ease);
+	@include animation-iteration-count(infinite);
+
+	&::after {
+		position: relative;
+		top: 50%;
+		display: block;
+		width: 100%;
+		height: 1px;
+		background-color: $color-white;
+		content: '';
+	}
+}
+
+.image-loader-background {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+/* .image-loader-frame - moves left-to-right in animation
+========================================================================== */
+.image-loader-frame {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	width: 18%;
+	height: 100%;
+	border: .2rem solid $color-white;
+	background-color: $color-grey-base;
+	@include animation-name(loader-frame);
+	@include animation-duration(3s);
+	@include animation-timing-function(ease);
+	@include animation-iteration-count(infinite);
+
+	&::after {
+		position: relative;
+		top: 50%;
+		display: block;
+		width: 100%;
+		color: $color-white;
+		content: $char-arrow-right;
+		font-family: $font-panorama;
+		font-size: 2rem;
+		text-align: center;
+		@include transform(translateY(-50%));
+
+		@include at-least($columns-3) {
+			font-size: 3rem;
+		}
+	}
+}
+
+/* animation keyframes
+========================================================================== */
+@include keyframes(loader-mask) {
+	0% {
+		width: 90%;
+	}
+
+	16.667% {
+		width: 90%;
+	}
+
+	83.333% {
+		width: 10%;
+	}
+
+	100% {
+		width: 10%;
+	}
+}
+
+@include keyframes(loader-frame) {
+	0% {
+		margin-left: 0%;
+	}
+
+	16.667% {
+		margin-left: 0%;
+	}
+
+	83.333% {
+		margin-left: 82%;
+	}
+
+	100% {
+		margin-left: 82%;
+	}
+}
